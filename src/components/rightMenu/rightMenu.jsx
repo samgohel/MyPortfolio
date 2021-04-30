@@ -5,7 +5,7 @@ import { BiAlignRight } from "react-icons/bi";
 const rightMenu = () => {
   return (
     <>
-      <div className="menu mt-4">
+      <div className="row no-gutters menu mt-4">
         <ul>
           <li>
             <a href="#">About Me</a>
@@ -13,10 +13,8 @@ const rightMenu = () => {
           <li>
             <a href="#">Hire Me</a>
           </li>
-          <li>
-            <a href="#">
-              <BiAlignRight />
-            </a>
+          <li className="slider">
+            <BiAlignRight />
           </li>
         </ul>
       </div>

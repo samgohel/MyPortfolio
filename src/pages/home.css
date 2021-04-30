@@ -1,0 +1,18 @@
+.home {
+  height: 100vh;
+  min-width: 100vh;
+  color: rgb(255, 0, 106);
+  /* overflow: hidden; */
+}
+
+.left {
+  height: 100%;
+  width: 70%;
+  background-color: brown;
+}
+
+.right {
+  height: 100%;
+  width: 30%;
+  background-color: blue;
+}

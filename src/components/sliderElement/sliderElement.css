@@ -1,0 +1,11 @@
+.page-wrapper {
+  min-width: 95vh;
+  max-height: 95vh;
+  width: 95%;
+  height: 95%;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
